@@ -105,3 +105,5 @@ const ManageClass = () => {
 };
 
 export default ManageClass;
+
+
