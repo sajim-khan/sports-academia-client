@@ -1,0 +1,134 @@
+[
+  {
+    "instructorImage": "https://s3media.247sports.com/Uploads/Assets/429/154/8154429.jpeg",
+    "instructorName": "John Doe",
+    "instructorEmail": "john.doe@example.com",
+    "instructorClassesTaken": 10,
+    "className": "Football Class",
+    "classImage": "https://cdn.shopify.com/s/files/1/0603/2542/9445/articles/football-3828278_1920.jpg?v=1637539140",
+    "availableSeats": 13,
+    "price": 54,
+    "numStudents": 40
+  },
+  {
+    "instructorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMUzM_w7OgSfJuF0GBkI0TflEMRS5TyvchQLq7q19hEVf3CZOPk2Z3lhBNGUPfEBR-4IA&usqp=CAU",
+    "instructorName": "Jane Smith",
+    "instructorEmail": "jane.smith@example.com",
+    "instructorClassesTaken": 5,
+    "className": "Cricket Class",
+    "classImage": "https://www.pitchvision.com/files/image/!stream/kidscricket.jpg",
+    "availableSeats": 5,
+    "price": 43,
+    "numStudents": 35
+  },
+  {
+    "instructorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkE7aSAMU6sycuwjWgUvb7CjOtZBo-0P7T7z6QxGUZwOPJNi3uYM85GyyG9iHYykSkuvs&usqp=CAU",
+    "instructorName": "Alex Johnson",
+    "instructorEmail": "alex.johnson@example.com",
+    "instructorClassesTaken": 7,
+    "className": "Basketball Class",
+    "classImage": "https://s.hdnux.com/photos/01/26/74/67/22793698/19/1200x0.jpg",
+    "availableSeats": 10,
+    "price": 65,
+    "numStudents": 32
+  },
+  {
+    "instructorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuRPJDyWd3wlIQRP_Chw_SgiPZ4AStGQdS9EJgCelwC1wp1ksc7NgcBbefu2063M50gfg&usqp=CAU",
+    "instructorName": "Sarah Davis",
+    "instructorEmail": "sarah.davis@example.com",
+    "instructorClassesTaken": 12,
+    "className": "Tennis Class",
+    "classImage": "https://thumbs.dreamstime.com/b/kid-playing-tennis-isolated-white-background-211282924.jpg",
+    "availableSeats": 2,
+    "price": 54,
+    "numStudents": 28
+  },
+  {
+    "instructorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_KvUyA-Hr8SPKW5hpZv9wql6FSyVoroEvSgPxaiptwElpEvxD3FUXFBe3E1aSHEKI5U&usqp=CAU",
+    "instructorName": "Michael Wilson",
+    "instructorEmail": "michael.wilson@example.com",
+    "instructorClassesTaken": 8,
+    "className": "Swimming Class",
+    "classImage": "https://www.millenniumpool.com/wp-content/uploads/2022/06/educational-pool-games-for-kids.jpg",
+    "availableSeats": 8,
+    "price": 65,
+    "numStudents": 38
+  },
+  {
+    "instructorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeHkBD6oTWWGAapKwPjXb5XMf62PF96vwUl8MLM3xxtg4dgQfz2sj76cn8TS6jheGW3FM&usqp=CAU",
+    "instructorName": "Emily Thompson",
+    "instructorEmail": "emily.thompson@example.com",
+    "instructorClassesTaken": 6,
+    "className": "Golf Class",
+    "classImage": "https://images.ctfassets.net/56u5qdsjym8c/20TTHMFR1MvLZkoJFs8HiY/626dc2f43c9600f43886f5866ea82329/Tips-for-Parents-Kids-Slide-Hero.png",
+    "availableSeats": 0,
+    "price": 54,
+    "numStudents": 30
+  },
+  {
+    "instructorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTze_7FnV9IzpHd5TZ53i5WcsDtw9GG27LjK4YVaDo3fFR-U3Zj6xpa-1GzdFzSIhvR4ic&usqp=CAU",
+    "instructorName": "David Johnson",
+    "instructorEmail": "david.johnson@example.com",
+    "instructorClassesTaken": 9,
+    "className": "Baseball Class",
+    "classImage": "https://thumbs.dreamstime.com/b/young-boy-baseball-pitcher-little-league-pitching-game-32221593.jpg",
+    "availableSeats": 7,
+    "price": 54,
+    "numStudents": 25
+  },
+  {
+    "instructorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdZUlgNKjjJ6IPqo7ThcqA4SuXHjbkdiW99eXGyKJzfhuA4qfKzteO54eg4rsWnvxzBCM&usqp=CAU",
+    "instructorName": "Emma Wilson",
+    "instructorEmail": "emma.wilson@example.com",
+    "instructorClassesTaken": 11,
+    "className": "Volleyball Class",
+    "classImage": "https://t4.ftcdn.net/jpg/04/15/14/97/360_F_415149773_s2papVEOtlKcKZuqvIBESRcYGi5pGkwz.jpg",
+    "availableSeats": 4,
+    "price": 65,
+    "numStudents": 40
+  },
+  {
+    "instructorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVH_Geubikh1xrUjbmVvbqFvICFiytNr56wuCiI3LVIeonCn63tBfIVekxuQYl4sqoNuc&usqp=CAU",
+    "instructorName": "Ryan Anderson",
+    "instructorEmail": "ryan.anderson@example.com",
+    "instructorClassesTaken": 15,
+    "className": "Martial Arts Class",
+    "classImage": "https://images.theconversation.com/files/20448/original/qkstq7xw-1361332831.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+    "availableSeats": 12,
+    "price": 58,
+    "numStudents": 20
+  },
+  {
+    "instructorImage": "https://athlonsports.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTgyMDE2NjQ1MzQ4ODYxMDU5/25-greatest-head-coaches-in-nfl-history-andy-reid.jpg",
+    "instructorName": "Olivia Davis",
+    "instructorEmail": "olivia.davis@example.com",
+    "instructorClassesTaken": 7,
+    "className": "Yoga Class",
+    "classImage": "https://www.kids-around-perth.com/images/treasuretotsyogachild.png",
+    "availableSeats": 3,
+    "price": 56,
+    "numStudents": 18
+  },
+  {
+    "instructorImage": "https://athlonsports.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTgyMDE2NjQ1MzQ4ODYxMDU5/25-greatest-head-coaches-in-nfl-history-andy-reid.jpg",
+    "instructorName": "James Smith",
+    "instructorEmail": "james.smith@example.com",
+    "instructorClassesTaken": 6,
+    "className": "Cycling Class",
+    "classImage": "https://cdn.shopify.com/s/files/1/0275/2426/8118/t/3/assets/f4088d75ddb3--S22-2969-S20-KrateEVO-LS1290-768x804-M.jpg?v=1657113656",
+    "availableSeats": 10,
+    "price": 54,
+    "numStudents": 30
+  },
+  {
+    "instructorImage": "https://images.squarespace-cdn.com/content/v1/5238dfcae4b0468ec26edfdb/1530585507533-A33C5CGODZ7VTIROGD6L/Dance+Teacher+3.jpg?format=1000w",
+    "instructorName": "Sophia Brown",
+    "instructorEmail": "sophia.brown@example.com",
+    "instructorClassesTaken": 8,
+    "className": "Dance Class",
+    "classImage": "https://reach.org.uk/wp-content/uploads/2020/09/kids-playing-freeze-dance-2.jpg",
+    "availableSeats": 5,
+    "price": 60,
+    "numStudents": 22
+  }
+]
