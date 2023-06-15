@@ -10,8 +10,9 @@ import {
   signOut,
   updateProfile,
 } from "firebase/auth";
-import app from "../firebase/firebase.config";
+
 import axios from "axios";
+import app from "../firebase/firebase.config";
 
 export const AuthContext = createContext("");
 const auth = getAuth(app);
@@ -32,19 +33,6 @@ const AuthProvider = ({ children }) => {
     setLoading(true);
     return signInWithEmailAndPassword(auth, email, password);
   };
-
-  // const updateUserData = (name, photoUrl) => {
-  //   if (user) {
-  //     return updateProfile(user, { displayName: name, photoURL: photoUrl })
-  //       .then(() => {
-  //         // Update user state after profile is successfully updated
-  //         setUser({ ...user, displayName: name, photoURL: photoUrl });
-  //       })
-  //       .catch((error) => {
-  //         console.log(error.message);
-  //       });
-  //   }
-  // };
 
   const updateUserProfile = (name, photo) => {
     return updateProfile(auth.currentUser, {
