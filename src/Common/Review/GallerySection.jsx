@@ -1,7 +1,6 @@
 import React from "react";
 import Title from "../Title/Title";
 
-
 const GallerySection = () => {
   const cardData = [
     {
@@ -12,31 +11,31 @@ const GallerySection = () => {
         "https://st4.depositphotos.com/4218696/40440/i/450/depositphotos_404403774-stock-photo-surprised-shocked-little-boy-looking.jpg",
 
       review:
-        " his shop has a great variety of beautiful toys and  Ann good Products",
+        " The course exceeded all expectations, providing a remarkable learning experience through comprehensive content, engaging delivery, practical application, collaborative opportunities, and exceptional support from knowledgeable facilitators.",
     },
     {
-      name: "Da",
+      name: "Sophia",
 
       id: 2,
       image:
         "https://st2.depositphotos.com/15865422/46018/i/600/depositphotos_460188556-stock-photo-surprised-little-preschool-girl-look.jpg",
       review:
-        " his shop has a great variety of beautiful toys and  Ann good Products",
+        "The course exceeded all expectations, providing a remarkable learning experience through comprehensive content, engaging delivery, practical application, collaborative opportunities, and exceptional support from knowledgeable facilitators.",
     },
     {
       id: 3,
-      name: "MEGHLA",
+      name: "Luna",
       review:
-        " his shop has a great variety of beautiful toys and  Ann good Products",
+        " The course exceeded all expectations, providing a remarkable learning experience through comprehensive content, engaging delivery, practical application, collaborative opportunities, and exceptional support from knowledgeable facilitators.",
 
       image:
         "https://img.freepik.com/premium-photo/amused-kid-perfect-surprise-wow-reaction-special-offer-portrait-happy-amazed-impressed-little-girl-white-enjoying-good-news-smiling-isolated-yellow-empty-space-advertising-background_279525-20441.jpg",
     },
     {
       id: 4,
-      name: "RUKAIYA",
+      name: "Amelia",
       review:
-        " his shop has a great variety of beautiful toys and  Ann good Products",
+        " The course exceeded all expectations, providing a remarkable learning experience through comprehensive content, engaging delivery, practical application, collaborative opportunities, and exceptional support from knowledgeable facilitators.",
 
       image:
         "https://img.freepik.com/free-photo/surprised-ginger-kid-listens-audio-track-headphones-impressed-by-loud-sound-opens-mouth-with-wonder-wears-oversized-knitted-sweater-isolated-yellow-wall-children-hobby-concept_273609-42095.jpg",
@@ -91,7 +90,7 @@ const GallerySection = () => {
                     </p>
                   </div>
                   <p className=" text-xs leading-none text-gray-600 pt-2 pb-2">
-                    This club is my favourite
+                    This club is my favourite!
                   </p>
                   <svg
                     className="absolute z-10 bottom-[-10px]"

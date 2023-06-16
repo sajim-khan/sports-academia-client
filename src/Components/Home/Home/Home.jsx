@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../Banner/Banner";
 import PopularClasses from "../../../Pages/Share/PopularClasses/PopularClasses";
-import Logo from "../../../Common/Logo/Logo";
+
 import PopularInstructors from "../../../Pages/PopularInstructors/PopularInstructors";
 import ParticlesBg from "particles-bg";
 import GallerySection from "../../../Common/Review/GallerySection";
@@ -16,9 +16,9 @@ const Home = () => {
         bg={true}
         num={5}
       />
-      <Banner></Banner>
-
-      <Logo></Logo>
+      <div className="my-0 py-0">
+        <Banner></Banner>
+      </div>
 
       <div>
         <PopularClasses></PopularClasses>

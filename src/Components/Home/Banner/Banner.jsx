@@ -6,7 +6,7 @@ const Banner = () => {
     "https://tuk-cdn.s3.amazonaws.com/can-uploader/Hero%2008.png";
 
   return (
-    <section className="container mx-auto  ">
+    <section className="container mx-auto  mb-0">
       <div className="w-full relative pb-10 px-6 xl:px-0">
         <img
           className="absolute w-full inset-0 h-full object-cover object-center"
@@ -19,73 +19,24 @@ const Banner = () => {
             <BannerCarousel></BannerCarousel>
           </div>
           <div role="contentinfo" className="w-full lg:w-1/2 h-full">
-            <p tabIndex="0" className="text-indigo-700 uppercase text-2xl mb-4">
-              Qusique Tincidun sapien
+            <p tabIndex="0" className="text-emerald-500  text-2xl mb-4">
+              Welcome to SportsAcademia
             </p>
             <h1
               tabIndex="0"
-              className="text-indigo-700 text-4xl lg:text-6xl font-black mb-8"
+              className="text-indigo-600 text-3xl lg:text-4xl font-black mb-8 mr-10"
             >
-              All natural ingredients
+              Unleash Your Athletic Potential:{" "}
+              <span className="text-red-600">Your Gateway to Sports Excellence!</span>
             </h1>
             <p tabIndex="0" className="text-gray-800 font-regular mb-8">
-              COMBINING SCIENCE WITH BEAUTY. L'Oreal Paris offerincare products
-              is developed and rigorously tested with leading scientists.
-              Indulge yourself in a luxurious and sensorial skincare experience.
-              Cutting-edge innovations, proven by Science.
+              Engaging in kids sports provides a wide range of benefits for
+              children's physical, mental, and social well-being. It promotes
+              active lifestyles, helping to combat sedentary habits and
+              childhood obesity. Regular participation in sports enhances
+              cardiovascular health, builds strength and coordination, and
+              improves overall fitness levels.
             </p>
-            <div className="bg-white lg:mt-16 py-4 px-4 flex flex-col sm:flex-row justify-start sm:justify-between items-start sm:items-center shadow-lg rounded-lg">
-              <div className="sm:flex items-center py-2">
-                <div className="flex items-center">
-                  <img
-                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/right_aligned_with_searchbar_Svg4.svg"
-                    alt="icon"
-                  />
-                  <input
-                    aria-label="Doctor name"
-                    className="w-24 xl:w-32 leading-none tracking-normal text-gray-800 ml-2.5 placeholder-black"
-                    placeholder="Doctor Name"
-                  />
-                </div>
-                <div className="flex items-center sm:mx-4 xl:mx-14 my-6 lg:my-0">
-                  <img
-                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/right_aligned_with_searchbar_Svg5.svg"
-                    alt="icon"
-                  />
-                  <input
-                    aria-label="zip code"
-                    className="w-24 xl:w-32 leading-none tracking-normal text-gray-800 ml-2.5 placeholder-black"
-                    placeholder="Zip code"
-                  />
-                </div>
-                <div className="flex items-center">
-                  <img
-                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/right_aligned_with_searchbar_Svg6.svg"
-                    alt="icon"
-                  />
-                  <input
-                    aria-label="insurance"
-                    className="w-24 xl:w-32 leading-none tracking-normal text-gray-800 ml-2.5 placeholder-black"
-                    placeholder="Insurance"
-                  />
-                </div>
-              </div>
-              <button
-                role="button"
-                aria-label="search"
-                className="focus:bg-indigo-700 focus:ring-indigo-700 focus:ring-2 focus:ring-offset-2 text-white bg-indigo-600 hover:bg-indigo-700 mt-4 sm:mt-0 p-3 lg:-ml-8 rounded w-full sm:w-auto relative"
-              >
-                <img
-                  className="absolute right-0 mr-2 sm:mr-auto sm:relative icon icon-tabler icon-tabler-search cursor-pointer"
-                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/right_aligned_with_searchbar_Svg7.svg"
-                  alt="search"
-                />
-                <input
-                  aria-label="search"
-                  className="sm:hidden border-b border-gray-300 w-full bg-transparent pr-6"
-                />
-              </button>
-            </div>
           </div>
         </div>
       </div>

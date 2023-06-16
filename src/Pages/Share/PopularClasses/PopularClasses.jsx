@@ -50,14 +50,14 @@ const PopularClasses = () => {
               />
 
               <div className="relative p-4 sm:p-6 lg:p-8">
-                <p className="text-sm  uppercase tracking-widest font-serif font-bold text-red-500">
+                <p className="text-sm  uppercase tracking-widest font-serif font-bold text-white">
                   STUDENT IN{" "}
-                  <span className="text-indigo-500">
+                  <span className="text-red-700">
                     CLASS {classItem.numStudents}
                   </span>
                 </p>
 
-                <p className="text-xl font-bold text-indigo-700 sm:text-2xl">
+                <p className="text-xl font-bold text-green-600 sm:text-2xl">
                   {classItem.className}
                 </p>
 
