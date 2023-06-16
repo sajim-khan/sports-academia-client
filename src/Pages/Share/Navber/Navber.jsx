@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../../../Common/ThemeContext/ThemeContext";
 import { AuthContext } from "../../../Provider/AuthProvider";
-import navpic from "../../../assets/nav/pngwing.com.png";
+import logo from "../../../assets/sports.png";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -24,7 +24,7 @@ const Navbar = () => {
           }
           to="/"
         >
-          HOME
+          Home
         </Link>
       </li>
       <li>
@@ -37,7 +37,7 @@ const Navbar = () => {
           }
           to="/instructor"
         >
-          INSTRUCTOR
+          Instructor
         </Link>
       </li>
       <li tabIndex={0}>
@@ -50,7 +50,7 @@ const Navbar = () => {
               : "font-bold justify-between"
           }
         >
-          CLASS
+          Class
         </Link>
       </li>
       <li tabIndex={0}>
@@ -63,7 +63,7 @@ const Navbar = () => {
               : "font-bold justify-between "
           }
         >
-          DASHBOARD
+          Dashboard
         </Link>
       </li>
     </>
@@ -99,7 +99,7 @@ const Navbar = () => {
           </div>
           <div className="avatar">
             <div className="w-12 rounded-full  ring-offset-2">
-              <img className="w-1/2" src={navpic} />
+              <img className="w-1/2" src={logo} />
             </div>
           </div>
 
@@ -107,8 +107,7 @@ const Navbar = () => {
             className="btn btn-ghost normal-case text-xl font-extrabold"
             to="/"
           >
-            <span className="text-indigo-600">SPORTS</span>{" "}
-            <span className="text-red-500">CLUB</span>
+            <span className="text-indigo-700">SportsAcademia</span>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -124,7 +123,7 @@ const Navbar = () => {
                   </div>
                 </div>
               </div>
-              <button className="btn btn-sm bg-blue-600" onClick={handleLogOut}>
+              <button className="btn btn-sm bg-cyan-400" onClick={handleLogOut}>
                 Logout
               </button>
             </>
