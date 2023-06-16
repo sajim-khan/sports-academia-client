@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Titile from "../../../Common/Titile/Titile";
+import Title from "../../../Common/Title/Title";
+
 
 const PopularClasses = () => {
   const [classesData, setClassesData] = useState([]);
@@ -27,10 +28,10 @@ const PopularClasses = () => {
 
   return (
     <div className=" container w-1/2 mx-auto mt-32 ">
-      <Titile
-        heading={"WELCOME TO POPULAR CLASS SECTION"}
-        subHeading={"CHOOSE YOU CLASS"}
-      ></Titile>
+      <Title
+        heading={" Popular Classes"}
+        subHeading={"Select Your Class"}
+      ></Title>
 
       <div className="popular-classes-container  grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2">
         {topClasses.map((classItem) => (
@@ -62,15 +63,16 @@ const PopularClasses = () => {
 
                 <div className="mt-32 ">
                   <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                    <button className="btn bg-indigo-600 btn-sm">
+                    <button className="btn bg-blue-900 text-white btn-sm">
                       {" "}
                       BOOK NOW
                     </button>
 
                     <p className="text-sm text-white">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Vel aperiam animi laudantium sed! Aliquam similique
-                      perspiciatis quasi nihil amet quam?
+                      A sport is a physical activity that people do for fun and
+                      as a way to compete with others. People have enjoyed
+                      sports for thousands of years. Every sport has a set of
+                      rules that the players follow.
                     </p>
                   </div>
                 </div>

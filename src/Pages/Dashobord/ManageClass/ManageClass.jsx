@@ -1,8 +1,9 @@
 import React, { useContext, useEffect, useState } from "react";
 import Swal from "sweetalert2";
-import Titile from "../../../Common/Titile/Titile";
+
 import axios from "axios";
 import { AuthContext } from "../../../Provider/AuthProvider";
+import Title from "../../../Common/Title/Title";
 
 const ManageClass = () => {
   const { user } = useContext(AuthContext);
@@ -53,7 +54,7 @@ const ManageClass = () => {
 
   return (
     <div className="w-full">
-      <Titile heading="Manage All Items" subHeading="Hurry up" />
+      <Title heading="Manage All Items" subHeading="Hurry up" />
       <div className="overflow-x-auto w-full">
         <table className="table w-full">
           <thead>

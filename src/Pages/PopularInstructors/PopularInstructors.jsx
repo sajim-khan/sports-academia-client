@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper";
 import "swiper/swiper.min.css";
-import Titile from "../../Common/Titile/Titile";
+import Title from "../../Common/Title/Title";
+
 
 SwiperCore.use([Pagination]);
 
@@ -29,10 +30,10 @@ const PopularInstructors = () => {
 
   return (
     <div className="container mx-auto mt-32">
-      <Titile
-        subHeading={"OUR POPULAR TRAINER"}
-        heading={"EXPLORE YOUR FAVORITE INSTRUCTOR"}
-      ></Titile>
+      <Title
+        subHeading={"Popular Instructor"}
+        heading={"Explore Your Favourite Instructor"}
+      ></Title>
 
       <div className="">
         <Swiper

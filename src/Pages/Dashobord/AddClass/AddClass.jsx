@@ -3,7 +3,7 @@ import axios from "axios";
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import { AuthContext } from "../../../Provider/AuthProvider";
-import Titile from "../../../Common/Titile/Titile";
+
 
 const img_hosting_token = "324916c420eadc578e623a667da06d42";
 

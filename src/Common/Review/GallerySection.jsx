@@ -1,11 +1,12 @@
 import React from "react";
-import Titile from "../Titile/Titile";
+import Title from "../Title/Title";
+
 
 const GallerySection = () => {
   const cardData = [
     {
       id: 1,
-      name: "SHOHAN",
+      name: "Jon",
 
       image:
         "https://st4.depositphotos.com/4218696/40440/i/450/depositphotos_404403774-stock-photo-surprised-shocked-little-boy-looking.jpg",
@@ -14,7 +15,7 @@ const GallerySection = () => {
         " his shop has a great variety of beautiful toys and  Ann good Products",
     },
     {
-      name: "MOU",
+      name: "Da",
 
       id: 2,
       image:
@@ -45,10 +46,10 @@ const GallerySection = () => {
   return (
     <div>
       <section className="mx-auto w-fit p-12 mt-20 ">
-        <Titile
-          heading={"CLIENTS RIVIEW"}
-          subHeading={"WHAT IS SAYS OUR STUDENT "}
-        ></Titile>
+        <Title
+          heading={"Clients Review"}
+          subHeading={"What is says our student "}
+        ></Title>
         <div className="grid grid-cols-1  hover:scale-105 hover:shadow-xl duration-500 rounded-3xl md:grid-cols-2 lg:grid-cols-4  bg-indigo-600 justify-center">
           {cardData.map((card) => (
             <div className="p-5" key={card.id} card={card}>
@@ -90,7 +91,7 @@ const GallerySection = () => {
                     </p>
                   </div>
                   <p className=" text-xs leading-none text-gray-600 pt-2 pb-2">
-                    THIS CLUB IS MY FAVOURITE!
+                    This club is my favourite
                   </p>
                   <svg
                     className="absolute z-10 bottom-[-10px]"

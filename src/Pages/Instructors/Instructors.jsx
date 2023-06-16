@@ -1,8 +1,9 @@
 import React from "react";
 import useClass from "../../Hooks/useClass";
 import Marquee from "react-marquee-slider";
-import Titile from "../../Common/Titile/Titile";
+
 import Banner from "../../Components/Home/Banner/Banner";
+import Title from "../../Common/Title/Title";
 
 const Instructors = () => {
   const [instructor] = useClass();
@@ -11,10 +12,10 @@ const Instructors = () => {
     <div className="container mx-auto">
       <Banner></Banner>
       <div className="container mx-auto mt-32">
-        <Titile
+        <Title
           subHeading={"OUR POPULAR TRAINER"}
           heading={"EXPLORE YOUR FAVORITE INSTRUCTOR"}
-        ></Titile>
+        ></Title>
 
         <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
           {instructor.map((instructor) => (
