@@ -4,7 +4,7 @@ import MainLayouts from "../../Layouts/MainLayouts/MainLayouts";
 import Home from "../../Components/Home/Home/Home";
 import Login from "../../Pages/Share/Login/Login";
 import SignUp from "../../Pages/Share/SignUp/SignUp";
-import Dashbord from "../../Pages/Dashobord/Dashbord";
+
 import MyEnrolled from "../../Pages/Dashobord/MyEnrolled/MyEnrolled";
 import Payment from "../../Pages/Dashobord/Payment/Payment";
 import Class from "../../Pages/Class/Class";
@@ -16,6 +16,7 @@ import PrivetRouter from "./PrivetRouter";
 import InstructorClasses from "../../Pages/Dashobord/AddClass/InstructorClasses/InstructorClasses";
 import ManageClass from "../../Pages/Dashobord/ManageClass/ManageClass";
 import Error from "../../Components/Home/Error/Error";
+import Dashbord from "../../Pages/Dashobord/Dashbord";
 
 export const router = createBrowserRouter([
   {
@@ -50,12 +51,13 @@ export const router = createBrowserRouter([
   },
   {
     path: "/dashbord",
-    element: (
-      <PrivetRouter>
-        {" "}
-        <Dashbord></Dashbord>{" "}
-      </PrivetRouter>
-    ),
+    element: <Dashbord></Dashbord>,
+    // element: (
+    //   <PrivetRouter>
+    //     {" "}
+    //     {" "}
+    //   </PrivetRouter>
+    // ),
     children: [
       {
         path: "myEnroll",

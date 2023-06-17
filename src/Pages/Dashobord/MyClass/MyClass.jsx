@@ -19,9 +19,12 @@ const MyClass = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:5000/slectedClass/${clas._id}`, {
-          method: "DELETE",
-        })
+        fetch(
+          `https://sports-academia-server.vercel.app/slectedClass/${clas._id}`,
+          {
+            method: "DELETE",
+          }
+        )
           .then((res) => res.json())
           .then((data) => {
             if (data.deletedCount > 0) {

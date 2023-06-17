@@ -12,7 +12,7 @@ const useSelected = () => {
     queryKey: ["/slectedClass", user?.email],
     queryFn: async () => {
       const res = await fetch(
-        `http://localhost:5000/slectedClass?email=${user?.email}`
+        `https://sports-academia-server.vercel.app/slectedClass?email=${user?.email}`
       );
       return res.json();
     },

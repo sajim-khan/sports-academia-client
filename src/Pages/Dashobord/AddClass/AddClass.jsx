@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import { AuthContext } from "../../../Provider/AuthProvider";
 
-
 const img_hosting_token = "324916c420eadc578e623a667da06d42";
 
 const AddClass = () => {
@@ -48,7 +47,7 @@ const AddClass = () => {
         console.log(newItem);
         try {
           const classResponse = await axios.post(
-            "http://localhost:5000/class",
+            "https://sports-academia-server.vercel.app/class",
             newItem
           );
 

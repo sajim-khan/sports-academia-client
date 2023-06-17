@@ -8,7 +8,7 @@ const UseInstructor = () => {
     queryKey: ["isInstructor", user?.email],
     queryFn: async () => {
       const res = await fetch(
-        `http://localhost:5000/users/instructor/${user?.email}`
+        `https://sports-academia-server.vercel.app/users/instructor/${user?.email}`
       );
       const data = await res.json(); // Parse the JSON response
       return data.instructor;

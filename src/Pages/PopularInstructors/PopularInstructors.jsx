@@ -4,7 +4,6 @@ import SwiperCore, { Pagination } from "swiper";
 import "swiper/swiper.min.css";
 import Title from "../../Common/Title/Title";
 
-
 SwiperCore.use([Pagination]);
 
 const PopularInstructors = () => {
@@ -16,7 +15,9 @@ const PopularInstructors = () => {
 
   const fetchInstructors = async () => {
     try {
-      const response = await fetch("http://localhost:5000/class");
+      const response = await fetch(
+        "https://sports-academia-server.vercel.app/class"
+      );
       const data = await response.json();
       const sortedInstructors = data.sort(
         (a, b) => b.numStudents - a.numStudents
@@ -148,4 +149,3 @@ const PopularInstructors = () => {
 };
 
 export default PopularInstructors;
-

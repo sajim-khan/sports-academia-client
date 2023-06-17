@@ -15,7 +15,7 @@ const Class = () => {
       </>
       
       <div className="">
-        <div className="  mt-10 grid lg:grid-cols-4 sm:grid:cols-1 md:grid-cols-2 ">
+        <div className="  mt-10 grid lg:grid-cols-3 sm:grid:cols-1 md:grid-cols-2 ">
           {classes.map((clas) => (
             <SlectedClass clas={clas} key={clas._id}></SlectedClass>
           ))}

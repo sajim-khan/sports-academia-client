@@ -40,7 +40,7 @@ const SlectedClass = ({ clas }) => {
         instructorClassesTaken,
         availableSeats,
       };
-      fetch("http://localhost:5000/slectedClass", {
+      fetch("https://sports-academia-server.vercel.app/slectedClass", {
         method: "POST",
         headers: {
           "content-type": "application/json",

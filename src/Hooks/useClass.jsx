@@ -5,7 +5,7 @@ const useClass = () => {
 
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("http://localhost:5000/class")
+    fetch("https://sports-academia-server.vercel.app/class")
       .then((res) => res.json())
       .then((data) => {
         setSclass(data);

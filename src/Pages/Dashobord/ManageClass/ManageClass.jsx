@@ -16,7 +16,9 @@ const ManageClass = () => {
 
   const fetchData = () => {
     axios
-      .get(`http://localhost:5000/class?email=${user?.email}`)
+      .get(
+        `https://sports-academia-server.vercel.app/class?email=${user?.email}`
+      )
       .then((response) => {
         setItems(response.data);
       })
@@ -37,7 +39,7 @@ const ManageClass = () => {
     }).then((result) => {
       if (result.isConfirmed) {
         axios
-          .delete(`http://localhost:5000/class/${item._id}`)
+          .delete(`https://sports-academia-server.vercel.app/class/${item._id}`)
           .then((res) => {
             console.log("deleted res", res.data);
             if (res.data.deletedCount > 0) {
@@ -106,5 +108,3 @@ const ManageClass = () => {
 };
 
 export default ManageClass;
-
-
