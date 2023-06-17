@@ -20,7 +20,7 @@ const Banner = () => {
           </div>
           <div role="contentinfo" className="w-full lg:w-1/2 h-full">
             <p tabIndex="0" className="text-emerald-500  text-2xl mb-4">
-              Welcome to SportsAcademia
+              Welcome to SportsAcademia!
             </p>
             <h1
               tabIndex="0"

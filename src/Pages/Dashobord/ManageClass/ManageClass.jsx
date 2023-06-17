@@ -91,7 +91,7 @@ const ManageClass = () => {
                 <td>{item.status}</td>
                 <td>
                   <div className="flex space-x-3">
-                    <button className="btn btn-primary">Approve</button>
+                    <button className="btn btn-primary m-0">Approve</button>
                     <button className="btn btn-danger">Deny</button>
                     <button className="btn btn-primary">Send Feedback</button>
                   </div>
