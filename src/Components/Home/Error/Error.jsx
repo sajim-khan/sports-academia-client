@@ -13,9 +13,9 @@ const Error = () => {
           style={{ height: "500px", width: "800px" }}
         ></Player>
 
-        <h1 className="text-red-700 font-extrabold text-3xl">
+        <h1 className="text-blue-700 font-bold text-center text-3xl">
           {" "}
-          <Link to="/"> BACK HOME </Link>{" "}
+          <Link to="/"> Back To Home </Link>{" "}
         </h1>
       </div>
     </div>
