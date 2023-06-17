@@ -46,7 +46,7 @@ const Login = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <h1 className="text-5xl mt-5 text-center font-bold text-indigo-600">
-              Register now!
+              Login now!
             </h1>
 
             <div>
