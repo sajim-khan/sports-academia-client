@@ -69,7 +69,7 @@ const Login = () => {
                       className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     />
                     {errors.email && (
-                      <p className="text-red-500 text-xs italic">
+                      <p className="text-red-600 text-xs italic">
                         Email is required.
                       </p>
                     )}
